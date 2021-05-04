@@ -1,0 +1,5 @@
+.header-btn:hover{
+    background-color: rgba(0, 0, 0, 0.335);
+    color: white;
+    border-radius: 5px;
+}

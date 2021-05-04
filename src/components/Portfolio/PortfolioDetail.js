@@ -13,7 +13,7 @@ const PortfolioDetail = (props) => {
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-                    <Card.Text>{tech}</Card.Text>
+                    <Card.Text> <b>Tech Used:</b> {tech}</Card.Text>
                     <div className="buttons">
                         <div className="btn-container">
                             <a href={live} className="btn effect01"><span>Live Link <FontAwesomeIcon icon={faLink} /></span></a>
