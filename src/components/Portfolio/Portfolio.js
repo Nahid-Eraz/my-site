@@ -5,6 +5,7 @@ import HungryMonster from '../../img/Hungry monster.PNG';
 import CruiserQueen from '../../img/CQ.PNG';
 import NikeeBD from '../../img/Nikee-bd.PNG';
 import PortfolioDetail from './PortfolioDetail';
+import Footer from '../Footer/Footer';
 
 const projectsData = [
     {
@@ -61,6 +62,7 @@ const Portfolio = () => {
                     }
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
