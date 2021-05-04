@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap';
 
 const Bio = () => {
     return (
-        <Container>
-            <div className='mt-4'>
+        <Container className='mt-4'>
+            <div>
                 <h2 style={{ color: 'white' }} className='text-center'>PERSONAL INFORMATION</h2>
                 <div className='row d-flex justify-content-center mt-4'>
                     <div className='col-md-4 p-3'>

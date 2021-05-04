@@ -8,8 +8,8 @@ import { Container } from 'react-bootstrap';
 const Contact = () => {
     return (
         <div>
+            <h1 style={{ color: 'white' }} className="mt-5 text-center"><b>GET IN TOUCH</b></h1>
             <div className="m-2">
-                <h2 style={{ color: 'white' }} className="text-center">GET IN TOUCH</h2>
                 <div className="row d-flex justify-content-center mt-5">
                     <div className='col-md-3 me-5 p-5'>
                         <h2>Wanna Work Together</h2>

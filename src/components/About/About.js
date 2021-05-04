@@ -7,7 +7,7 @@ import Skills from './AboutComponents/Skills';
 const About = () => {
     return (
         <div>
-            <h1 className='text-center'>ABOUT ME</h1>
+            <h1 className='mt-5 text-center'><b>ABOUT ME</b></h1>
             <Bio></Bio>
             <Skills></Skills>
             <Qualification></Qualification>

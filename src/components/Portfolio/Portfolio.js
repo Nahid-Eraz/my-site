@@ -54,7 +54,7 @@ const Portfolio = () => {
 
     return (
         <div>
-            <h2 style={{ color: 'white' }} className='text-center'>MY PROJECTS</h2>
+            <h1 style={{ color: 'white' }} className='mt-5 text-center'><b>MY PROJECTS</b></h1>
             <div className="row d-flex justify-content-center">
                 <div className="w-75 row mt-4 p-5">
                     {
