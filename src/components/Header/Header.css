@@ -3,3 +3,9 @@
     color: white;
     border-radius: 5px;
 }
+
+.header-tag{
+    background: -webkit-linear-gradient(rgba(134, 134, 134, 0.411), rgb(7, 7, 7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
