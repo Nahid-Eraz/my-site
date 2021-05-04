@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css';
 import myImg from '../../img/me.jpg';
 import Footer from '../Footer/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDownload, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Home = () => {
     return (
@@ -15,8 +17,19 @@ const Home = () => {
                         <h1 style={{ color: 'white' }} className="heading-text"><b>- I'm <span className='text-dark'>Nahid Eraz</span></b></h1>
                         <h1 style={{ color: 'white' }}><b><span className='text-dark'>Front-End</span></b> Web Developer</h1>
                         <h5 className="text-secondary">Focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</h5>
-
-                        <h2>NEED BUTTON</h2>
+                        
+                        <div className='d-flex justify-content-evenly'>
+                            <div className="buttons">
+                                <div className="btn-container">
+                                    <a href="https://drive.google.com/uc?export=download&id=13he56TWY3mfQ5H_WKzfr7GJeNaQAbtm5" class="btn effect01"><span>Download Resume <FontAwesomeIcon icon={faDownload} /></span></a>
+                                </div>
+                            </div>
+                            <div className="buttons">
+                                <div className="btn-container">
+                                    <a href="/about" className="btn effect01"><span>More About Me <FontAwesomeIcon icon={faArrowRight} /></span></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

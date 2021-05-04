@@ -31,7 +31,7 @@ const ContactForm = () => {
                     <textarea name="" className="form-control" id="" cols="30" rows="10" placeholder="Message >>" name="message" required></textarea>
                 </div>
                 <div className="form-group text-center">
-                    <input type="submit" className="" value="Send Message"/>
+                    <input type="submit" className="btn effect01" value="Send Message"/>
                 </div>
             </form>
         </div>

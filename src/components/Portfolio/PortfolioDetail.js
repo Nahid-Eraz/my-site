@@ -2,7 +2,7 @@ import React from 'react';
 import './PortfolioDetail.css'
 import { Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faLink} from '@fortawesome/free-solid-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 const PortfolioDetail = (props) => {
     const { name, img, tech, live } = props.portfolio;
@@ -14,7 +14,11 @@ const PortfolioDetail = (props) => {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{tech}</Card.Text>
-                    <h2>Button NEED</h2>
+                    <div className="buttons">
+                        <div className="btn-container">
+                            <a href={live} className="btn effect01"><span>Live Link <FontAwesomeIcon icon={faLink} /></span></a>
+                        </div>
+                    </div>
                 </Card.Body>
             </Card>
         </div>
