@@ -1,0 +1,12 @@
+.media .icon{
+    height: 40px;
+    width: 40px;
+    color: #8f33f8;
+    border-radius: 50%;
+    border: 1px solid #8f33f8;
+    padding: 10px;
+}
+.media .icon:hover{
+    color: white;
+    background-color: #8f33f8 ;
+}
